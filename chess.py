@@ -36,7 +36,6 @@ def goway(y, x, case):
     cou += 1
     gameArr[checkarr[minimal][0]][checkarr[minimal][1]] = cou
     time.sleep(0)
-    print(gameArr)
     try:
         goway(checkarr[minimal][0], checkarr[minimal][1], case)
     except:
